@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Slackware Linux CN Community</title>
+  <subtitle>Welcome And Enjoy Slackware</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://slackwarecn.github.io/"/>
+  <updated>2016-02-29T11:12:45.510Z</updated>
+  <id>https://slackwarecn.github.io/</id>
+  
+  <author>
+    <name>Slackwarecn</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome To Slackware Linux CN Community</title>
+    <link href="https://slackwarecn.github.io/2016/02/29/Welcome-To-Slackware-Linux-CN-Community/"/>
+    <id>https://slackwarecn.github.io/2016/02/29/Welcome-To-Slackware-Linux-CN-Community/</id>
+    <published>2016-02-29T11:02:25.000Z</published>
+    <updated>2016-02-29T11:12:45.510Z</updated>
+    
+    <content type="html">&lt;p&gt;这里是Slackare Linux 中文社区，希望您能喜欢这里，也欢迎为Slackware Linux &lt;a href=&quot;https://github.com/slackwarecn&quot; title=&quot;点此访问我们的Github Organization 主页&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;贡献您的力量&lt;/a&gt; (•̀ᴗ•́)و&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这里是Slackare Linux 中文社区，希望您能喜欢这里，也欢迎为Slackware Linux &lt;a href=&quot;https://github.com/slackwarecn&quot; title=&quot;点此访问我们的Github Organization 主页&quot; target
+    
+    </summary>
+    
+      <category term="消息发布" scheme="https://slackwarecn.github.io/categories/%E6%B6%88%E6%81%AF%E5%8F%91%E5%B8%83/"/>
+    
+    
+      <category term="欢迎" scheme="https://slackwarecn.github.io/tags/%E6%AC%A2%E8%BF%8E/"/>
+    
+  </entry>
+  
+</feed>

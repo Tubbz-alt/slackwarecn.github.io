@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://slackwarecn.github.io/"/>
-  <updated>2016-03-04T01:42:42.058Z</updated>
+  <updated>2016-03-06T13:56:55.379Z</updated>
   <id>https://slackwarecn.github.io/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SlackBook翻译项目已经启动</title>
+    <link href="https://slackwarecn.github.io/2016/03/06/SlackBook%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E5%B7%B2%E7%BB%8F%E5%90%AF%E5%8A%A8/"/>
+    <id>https://slackwarecn.github.io/2016/03/06/SlackBook翻译项目已经启动/</id>
+    <published>2016-03-06T13:46:48.000Z</published>
+    <updated>2016-03-06T13:56:55.379Z</updated>
+    
+    <content type="html">&lt;p&gt;HI all，目前&lt;a href=&quot;http://slackbook.org/beta&quot; title=&quot;查看原始文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SlackBook 3.0&lt;/a&gt; 的中文翻译计划已经开始。你可以在&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;查看项目的大致规划。如果你想贡献自己的力量来缩短项目完成的时间，请查看&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn#%E8%B4%A1%E7%8C%AE%E5%8A%9B%E9%87%8F&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;README&lt;/a&gt; 和&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;工作进展&lt;/a&gt;来选择你喜欢翻译的部分。&lt;/p&gt;
+&lt;p&gt;请期待项目的最终完成，感谢您的关注。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;HI all，目前&lt;a href=&quot;http://slackbook.org/beta&quot; title=&quot;查看原始文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SlackBook 3.0&lt;/a&gt; 的中文翻译计划已经开始。你可以在&lt;a href=&quot;htt
+    
+    </summary>
+    
+      <category term="社区信息发布" scheme="https://slackwarecn.github.io/categories/%E7%A4%BE%E5%8C%BA%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83/"/>
+    
+    
+      <category term="文档翻译" scheme="https://slackwarecn.github.io/tags/%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Welcome To Slackware Linux CN Community</title>
     <link href="https://slackwarecn.github.io/2016/02/29/Welcome-To-Slackware-Linux-CN-Community/"/>
     <id>https://slackwarecn.github.io/2016/02/29/Welcome-To-Slackware-Linux-CN-Community/</id>
     <published>2016-02-29T11:02:25.000Z</published>
-    <updated>2016-03-04T01:42:42.058Z</updated>
+    <updated>2016-03-06T13:57:09.735Z</updated>
     
     <content type="html">&lt;p&gt;这里是Slackare Linux 中文社区，希望你能喜欢这里，也欢迎为Slackware Linux 贡献你的力量 (•̀ᴗ•́)و&lt;/p&gt;
 &lt;p&gt;你可以在&lt;a href=&quot;/About&quot; title=&quot;为什么会有Slackware Linux 中文社区？&quot;&gt;这里&lt;/a&gt;了解到Slackware Linux 中文社区建立的初衷和愿景。&lt;/p&gt;
@@ -34,7 +58,7 @@
     
     </summary>
     
-      <category term="消息发布" scheme="https://slackwarecn.github.io/categories/%E6%B6%88%E6%81%AF%E5%8F%91%E5%B8%83/"/>
+      <category term="社区消息发布" scheme="https://slackwarecn.github.io/categories/%E7%A4%BE%E5%8C%BA%E6%B6%88%E6%81%AF%E5%8F%91%E5%B8%83/"/>
     
     
       <category term="欢迎" scheme="https://slackwarecn.github.io/tags/%E6%AC%A2%E8%BF%8E/"/>

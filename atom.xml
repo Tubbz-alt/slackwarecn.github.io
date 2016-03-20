@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://slackwarecn.github.io/"/>
-  <updated>2016-03-06T13:56:55.379Z</updated>
+  <updated>2016-03-20T08:53:09.376Z</updated>
   <id>https://slackwarecn.github.io/</id>
   
   <author>
@@ -16,19 +16,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SlackBook翻译项目已经结束</title>
+    <link href="https://slackwarecn.github.io/2016/03/20/SlackBook%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F/"/>
+    <id>https://slackwarecn.github.io/2016/03/20/SlackBook翻译项目已经结束/</id>
+    <published>2016-03-20T08:44:19.000Z</published>
+    <updated>2016-03-20T08:53:09.376Z</updated>
+    
+    <content type="html">&lt;p&gt;大家好，得力于很多人的积极贡献，项目以远超于预想的速度完成。经过18 天的努力，目前翻译阶段已经结束，手册的格式也经过了修改以期能为读者提供一个统一的展示风格。&lt;/p&gt;
+&lt;p&gt;你可以在&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt; 上查看该项目，或者直接在&lt;a href=&quot;https://www.gitbook.com/read/book/slackwarecn/slackbook_cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gitbook&lt;/a&gt; 上阅读该手册。&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/blob/master/CONTRIBUTING.md#%E8%B4%A1%E7%8C%AE%E8%80%85%E5%88%97%E8%A1%A8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;提供了一份贡献者名单，非常感谢名单上的各位！&lt;/p&gt;
+&lt;p&gt;如果你发现翻译上的错误、不通顺和其他可改进的地方，请&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;提出你的意见&lt;/a&gt;，非常感谢。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大家好，得力于很多人的积极贡献，项目以远超于预想的速度完成。经过18 天的努力，目前翻译阶段已经结束，手册的格式也经过了修改以期能为读者提供一个统一的展示风格。&lt;/p&gt;
+&lt;p&gt;你可以在&lt;a href=&quot;https://github.com/slackwarecn/slack
+    
+    </summary>
+    
+      <category term="社区信息发布" scheme="https://slackwarecn.github.io/categories/%E7%A4%BE%E5%8C%BA%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83/"/>
+    
+    
+      <category term="文档翻译" scheme="https://slackwarecn.github.io/tags/%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SlackBook翻译项目已经启动</title>
     <link href="https://slackwarecn.github.io/2016/03/06/SlackBook%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E5%B7%B2%E7%BB%8F%E5%90%AF%E5%8A%A8/"/>
     <id>https://slackwarecn.github.io/2016/03/06/SlackBook翻译项目已经启动/</id>
     <published>2016-03-06T13:46:48.000Z</published>
-    <updated>2016-03-06T13:56:55.379Z</updated>
+    <updated>2016-03-20T08:48:31.146Z</updated>
     
-    <content type="html">&lt;p&gt;HI all，目前&lt;a href=&quot;http://slackbook.org/beta&quot; title=&quot;查看原始文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SlackBook 3.0&lt;/a&gt; 的中文翻译计划已经开始。你可以在&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;查看项目的大致规划。如果你想贡献自己的力量来缩短项目完成的时间，请查看&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn#%E8%B4%A1%E7%8C%AE%E5%8A%9B%E9%87%8F&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;README&lt;/a&gt; 和&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;工作进展&lt;/a&gt;来选择你喜欢翻译的部分。&lt;/p&gt;
+    <content type="html">&lt;p&gt;大家好，目前&lt;a href=&quot;http://slackbook.org/beta&quot; title=&quot;查看原始文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SlackBook 3.0&lt;/a&gt; 的中文翻译计划已经开始。你可以在&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;查看项目的大致规划。如果你想贡献自己的力量来缩短项目完成的时间，请查看&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn#%E8%B4%A1%E7%8C%AE%E5%8A%9B%E9%87%8F&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;README&lt;/a&gt; 和&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;工作进展&lt;/a&gt;来选择你喜欢翻译的部分。&lt;/p&gt;
 &lt;p&gt;请期待项目的最终完成，感谢您的关注。&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;HI all，目前&lt;a href=&quot;http://slackbook.org/beta&quot; title=&quot;查看原始文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SlackBook 3.0&lt;/a&gt; 的中文翻译计划已经开始。你可以在&lt;a href=&quot;htt
+      &lt;p&gt;大家好，目前&lt;a href=&quot;http://slackbook.org/beta&quot; title=&quot;查看原始文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SlackBook 3.0&lt;/a&gt; 的中文翻译计划已经开始。你可以在&lt;a href=&quot;https:
     
     </summary>
     

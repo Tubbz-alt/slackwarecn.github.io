@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://slackwarecn.github.io/JoinUs/index.html</loc>
+    
+    <lastmod>2016-05-08T07:03:30.298Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://slackwarecn.github.io/About/index.html</loc>
+    
+    <lastmod>2016-05-08T07:00:24.338Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://slackwarecn.github.io/2016/03/20/SlackBook%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F/</loc>
     
     <lastmod>2016-03-20T08:53:09.376Z</lastmod>
@@ -19,27 +33,6 @@
     <loc>https://slackwarecn.github.io/2016/02/29/Welcome-To-Slackware-Linux-CN-Community/</loc>
     
     <lastmod>2016-03-06T13:57:09.735Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://slackwarecn.github.io/About/index.html</loc>
-    
-    <lastmod>2016-03-04T01:42:12.911Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://slackwarecn.github.io/JoinUs/index.html</loc>
-    
-    <lastmod>2016-03-04T01:41:47.191Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://slackwarecn.github.io/categories/index.html</loc>
-    
-    <lastmod>2016-02-29T15:20:46.738Z</lastmod>
     
   </url>
   

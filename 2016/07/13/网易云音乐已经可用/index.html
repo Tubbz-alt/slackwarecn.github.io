@@ -112,7 +112,7 @@
 	<div class="mypage">		
 	  		
 
-	  <p>现在Slackware 14.2 (稍旧的版本如14.1 亦可) 上已经可以使用网易云音乐了！</p>
+	  <p>现在Slackware 14.2 上已经可以使用网易云音乐了！</p>
 <blockquote>
 <p>网易云音乐是一款专注于发现与分享的音乐产品,依托专业音乐人、DJ、好友推荐及社交功能,为用户打造全新的音乐生活。</p>
 <p>网易云音乐Linux 版保留了云音乐功能，用户只需一个帐号，无论在哪个版本上收藏歌曲或创建歌单，只要连上网络，便可立即同步自己的数据信息。</p>
@@ -120,7 +120,7 @@
 </blockquote>
 <p>你可以在<a href="https://github.com/slackwarecn/netease-cloud-music" target="_blank" rel="external">这里</a>找到你所需要的SlackBuild。</p>
 <p>下面是一个完整的安装过程。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">slackpkg update</span><br><span class="line">slackpkg install alsa-lib mozilla-nss gst-plugins-base gst-plugins-good</span><br><span class="line">sbopkg -r</span><br><span class="line">sbopkg -i gst-libav -i gst-plugins-ugly -i libcue -i libxkbcommon -i qt5</span><br><span class="line">sbopkg -i Sphinx</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/slackwarecn/extra-cmake-modules.git</span><br><span class="line"><span class="built_in">cd</span> extra-cmake-modules</span><br><span class="line">PREBUILD=yes ./extra-cmake-modules.SlackBuild</span><br><span class="line">installpkg /tmp/extra-cmake-modules-5.24.0-*-1_SBo.txz</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/slackwarecn/kconfig.git</span><br><span class="line"><span class="built_in">cd</span> kconfig</span><br><span class="line">PREBUILD=yes ./kconfig.SlackBuild</span><br><span class="line">installpkg /tmp/kconfig-5.24.0-*-1_SBo.txz</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/slackwarecn/netease-cloud-music.git</span><br><span class="line"><span class="built_in">cd</span> netease-cloud-music</span><br><span class="line">PREBUILD=yes ./netease-cloud-music.SlackBuild</span><br><span class="line">installpkg /tmp/netease-cloud-music-1.0.0-*-1_SBo.txz</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">slackpkg update</div><div class="line">slackpkg install alsa-lib mozilla-nss gst-plugins-base gst-plugins-good</div><div class="line">sbopkg -r</div><div class="line">sbopkg -i gst-libav -i gst-plugins-ugly -i libcue -i libxkbcommon -i qt5</div><div class="line">sbopkg -i Sphinx</div><div class="line">git <span class="built_in">clone</span> https://github.com/slackwarecn/repo.git</div><div class="line"><span class="built_in">cd</span> repo</div><div class="line">./sbm init</div><div class="line">./sbm build extra-cmake-modules kconfig netease-cloud-music</div></pre></td></tr></table></figure>
 <blockquote>
 <p>注意：以上步骤可以根据你的经验更改，例如使用<a href="http://www.slackware.com/~alien/slackbuilds" target="_blank" rel="external">Alien 的SlackBuilds</a> 去掉部分编译过程。</p>
 </blockquote>
@@ -136,7 +136,8 @@
 
     
     
-    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Prev</a>
+    <a href="/2016/08/06/SlackBuild管理机制已经变更/" type="button" class="btn btn-default"><i
+                class="fa fa-arrow-circle-o-left"></i> Prev</a>
     
 
     <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
@@ -184,7 +185,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/社区信息发布/">社区信息发布<span>4</span></a></li>
+    <li><a href="/categories/社区信息发布/">社区信息发布<span>5</span></a></li>
   </li>
 
     </ul>

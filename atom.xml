@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://slackwarecn.github.io/"/>
-  <updated>2016-07-13T16:25:04.518Z</updated>
+  <updated>2016-08-06T10:14:45.717Z</updated>
   <id>https://slackwarecn.github.io/</id>
   
   <author>
@@ -16,35 +16,63 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SlackBuild管理机制已经变更</title>
+    <link href="https://slackwarecn.github.io/2016/08/06/SlackBuild%E7%AE%A1%E7%90%86%E6%9C%BA%E5%88%B6%E5%B7%B2%E7%BB%8F%E5%8F%98%E6%9B%B4/"/>
+    <id>https://slackwarecn.github.io/2016/08/06/SlackBuild管理机制已经变更/</id>
+    <published>2016-08-06T09:53:08.000Z</published>
+    <updated>2016-08-06T10:14:45.717Z</updated>
+    
+    <content type="html"><![CDATA[<p>社区的SlackBuild 的管理方式已经较之前有了变化，现在SlackBuild 由一个单独的GitHub 组织<a href="https://github.com/slackwarecn-slackbuilds" target="_blank" rel="external">slackwarecn-slackbuilds</a> 存放，而不再与其他项目仓库混合放置。</p>
+<p>在SlackBuild 进行了整体的迁移之后，我们新增了一个项目<a href="https://github.com/slackwarecn/repo" target="_blank" rel="external">repo</a> 用来以子模组的方式呈现这些SlackBuilds。这种管理方式相较之前更加清晰，在SlackBuild 增多的情况下不易带来混乱，同时也为我们带来了一个简单的审查制度，这使得控制SlackBuild 的质量初步可行。</p>
+<p>为了减轻SlackBuild 脚本本身的混乱状况，我们新增了项目<a href="https://github.com/slackwarecn/slackbuild-guidelines" target="_blank" rel="external">slackbuild-guidelines</a>，用来表达我们对SlackBuild 的编写要求和期望。为了方便SlackBuild 的编写，在这个项目中我们修改了来自<a href="https://slackbuilds.org/" target="_blank" rel="external">SlackBuild.org</a> 的模板，以便能够方便的使用于社区之中。你可以在<a href="https://github.com/slackwarecn/slackbuild-guidelines/tree/master/templates" target="_blank" rel="external">这里</a>找到这些模板并方便地使用它们。</p>
+<p>以上就是这次管理机制的主要变更，从着手工作到初步切换到新的管理方式大约花了一周的时间。从效果来看这项工作是值得的，它为社区带来一套相对清晰和有效的SlackBuild 管理机制。</p>
+<p>祝你愉快！</p>
+<p>The Slackware Linux CN Community</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;社区的SlackBuild 的管理方式已经较之前有了变化，现在SlackBuild 由一个单独的GitHub 组织&lt;a href=&quot;https://github.com/slackwarecn-slackbuilds&quot; target=&quot;_blank&quot; rel=&quot;extern
+    
+    </summary>
+    
+      <category term="社区信息发布" scheme="https://slackwarecn.github.io/categories/%E7%A4%BE%E5%8C%BA%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83/"/>
+    
+    
+      <category term="SlackBuild" scheme="https://slackwarecn.github.io/tags/SlackBuild/"/>
+    
+  </entry>
+  
+  <entry>
     <title>网易云音乐已经可用</title>
     <link href="https://slackwarecn.github.io/2016/07/13/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%B7%B2%E7%BB%8F%E5%8F%AF%E7%94%A8/"/>
     <id>https://slackwarecn.github.io/2016/07/13/网易云音乐已经可用/</id>
     <published>2016-07-13T15:45:24.000Z</published>
-    <updated>2016-07-13T16:25:04.518Z</updated>
+    <updated>2016-08-06T10:17:25.255Z</updated>
     
-    <content type="html">&lt;p&gt;现在Slackware 14.2 (稍旧的版本如14.1 亦可) 上已经可以使用网易云音乐了！&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;网易云音乐是一款专注于发现与分享的音乐产品,依托专业音乐人、DJ、好友推荐及社交功能,为用户打造全新的音乐生活。&lt;/p&gt;
-&lt;p&gt;网易云音乐Linux 版保留了云音乐功能，用户只需一个帐号，无论在哪个版本上收藏歌曲或创建歌单，只要连上网络，便可立即同步自己的数据信息。&lt;/p&gt;
-&lt;p&gt;网易云音乐Linux 版在界面设计、曲库、社交、数据同步、平台互通等方面具备与Windows 版网易云音乐基本一致的体验，同时也会不断优化产品性能，给用户带来更好的操作体验。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;你可以在&lt;a href=&quot;https://github.com/slackwarecn/netease-cloud-music&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;找到你所需要的SlackBuild。&lt;/p&gt;
-&lt;p&gt;下面是一个完整的安装过程。&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;slackpkg update&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;slackpkg install alsa-lib mozilla-nss gst-plugins-base gst-plugins-good&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sbopkg -r&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sbopkg -i gst-libav -i gst-plugins-ugly -i libcue -i libxkbcommon -i qt5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sbopkg -i Sphinx&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/slackwarecn/extra-cmake-modules.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; extra-cmake-modules&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;PREBUILD=yes ./extra-cmake-modules.SlackBuild&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;installpkg /tmp/extra-cmake-modules-5.24.0-*-1_SBo.txz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/slackwarecn/kconfig.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; kconfig&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;PREBUILD=yes ./kconfig.SlackBuild&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;installpkg /tmp/kconfig-5.24.0-*-1_SBo.txz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/slackwarecn/netease-cloud-music.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; netease-cloud-music&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;PREBUILD=yes ./netease-cloud-music.SlackBuild&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;installpkg /tmp/netease-cloud-music-1.0.0-*-1_SBo.txz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;blockquote&gt;
-&lt;p&gt;注意：以上步骤可以根据你的经验更改，例如使用&lt;a href=&quot;http://www.slackware.com/~alien/slackbuilds&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Alien 的SlackBuilds&lt;/a&gt; 去掉部分编译过程。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;之后你可以在桌面环境的启动菜单中找到网易云音乐，或者使用&lt;code&gt;netease-cloud-music&lt;/code&gt; 命令启动。&lt;/p&gt;
-&lt;p&gt;祝你愉快！&lt;/p&gt;
-&lt;p&gt;The Slackware Linux CN Community&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>现在Slackware 14.2 上已经可以使用网易云音乐了！</p>
+<blockquote>
+<p>网易云音乐是一款专注于发现与分享的音乐产品,依托专业音乐人、DJ、好友推荐及社交功能,为用户打造全新的音乐生活。</p>
+<p>网易云音乐Linux 版保留了云音乐功能，用户只需一个帐号，无论在哪个版本上收藏歌曲或创建歌单，只要连上网络，便可立即同步自己的数据信息。</p>
+<p>网易云音乐Linux 版在界面设计、曲库、社交、数据同步、平台互通等方面具备与Windows 版网易云音乐基本一致的体验，同时也会不断优化产品性能，给用户带来更好的操作体验。</p>
+</blockquote>
+<p>你可以在<a href="https://github.com/slackwarecn/netease-cloud-music" target="_blank" rel="external">这里</a>找到你所需要的SlackBuild。</p>
+<p>下面是一个完整的安装过程。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">slackpkg update</div><div class="line">slackpkg install alsa-lib mozilla-nss gst-plugins-base gst-plugins-good</div><div class="line">sbopkg -r</div><div class="line">sbopkg -i gst-libav -i gst-plugins-ugly -i libcue -i libxkbcommon -i qt5</div><div class="line">sbopkg -i Sphinx</div><div class="line">git <span class="built_in">clone</span> https://github.com/slackwarecn/repo.git</div><div class="line"><span class="built_in">cd</span> repo</div><div class="line">./sbm init</div><div class="line">./sbm build extra-cmake-modules kconfig netease-cloud-music</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：以上步骤可以根据你的经验更改，例如使用<a href="http://www.slackware.com/~alien/slackbuilds" target="_blank" rel="external">Alien 的SlackBuilds</a> 去掉部分编译过程。</p>
+</blockquote>
+<p>之后你可以在桌面环境的启动菜单中找到网易云音乐，或者使用<code>netease-cloud-music</code> 命令启动。</p>
+<p>祝你愉快！</p>
+<p>The Slackware Linux CN Community</p>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;现在Slackware 14.2 (稍旧的版本如14.1 亦可) 上已经可以使用网易云音乐了！&lt;/p&gt;
+      &lt;p&gt;现在Slackware 14.2 上已经可以使用网易云音乐了！&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;网易云音乐是一款专注于发现与分享的音乐产品,依托专业音乐人、DJ、好友推荐及社交功能,为用户打造全新的音乐生活。&lt;/p&gt;
-&lt;p&gt;网易云音乐
+&lt;p&gt;网易云音乐Linux 版保留了云音乐功能，
     
     </summary>
     
@@ -60,21 +88,21 @@
     <link href="https://slackwarecn.github.io/2016/07/02/Slackware-14-2%E5%B7%B2%E7%BB%8F%E5%8F%91%E5%B8%83%EF%BC%81/"/>
     <id>https://slackwarecn.github.io/2016/07/02/Slackware-14-2已经发布！/</id>
     <published>2016-07-02T05:54:54.000Z</published>
-    <updated>2016-07-13T16:06:44.771Z</updated>
+    <updated>2016-08-06T09:38:28.090Z</updated>
     
-    <content type="html">&lt;p&gt;经过漫长的开发周期（包括为了保证完美而发布的众多Beta 版和RC 版），我们很高兴的宣布新的稳定版已经发布。新版中你会发现我们对系统的方方面面进行了更新：开发工具、应用程序、窗口管理器、桌面环境以及其他系统组件。内核已更新至4.4.14（4.4.x 内核系列将会的到内核开发者的长期支持）。我们已经汇集了最好的现代化工具并在之上施加了我们的魔法。如果你之前使用过Slackware，新的版本会让你有家的感觉。&lt;/p&gt;
-&lt;p&gt;更多信息请参见&lt;a href=&quot;http://www.slackware.com/announce/14.2.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方公告&lt;/a&gt;和&lt;a href=&quot;http://www.slackware.com/releasenotes/14.2.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;发行注记&lt;/a&gt;。在软件包列表中你可以查看所包含软件包的完整列表。&lt;/p&gt;
-&lt;p&gt;适用于Slackware 14.2 的各类软件构建脚本可以在&lt;a href=&quot;http://slackbuilds.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;slackbuilds.org&lt;/a&gt; 上找到。&lt;/p&gt;
-&lt;p&gt;想试用Slackware 而不对磁盘进行修改？看看Slackware Live 版本把！这是一个可以在CD、DVD 和U 盘上运行的Slackware 完整安装。感谢Eric Hameleers 所做的工作，你可以在这里找到它：&lt;a href=&quot;http://bear.alienbase.nl/mirrors/slackware/slackware-live/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://bear.alienbase.nl/mirrors/slackware/slackware-live/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;需要帮助？看看我们的文档站点&lt;a href=&quot;http://docs.slackware.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;docs.slackware.com&lt;/a&gt;，你可以到处转转并分享你的知识。&lt;/p&gt;
-&lt;p&gt;请考虑从&lt;a href=&quot;http://store.slackware.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Slackware 商店&lt;/a&gt;中获取一份Slackware 14.2 的拷贝以支持Slackware 项目。光盘即将上架，我们接受6 CD 版和DVD 版的预定。CD 为32 位的x86 系统，DVD 为双面盘，分别刻有32 位的x86 系统和64 位的x86_64 系统。感谢我们的用户和支持者让Slackware 项目在这些年里得以继续。&lt;/p&gt;
-&lt;p&gt;感谢Slackware 开发团队为14.2 发布所做的一切工作。当然，还要感谢所有上游的开源工作者和在&lt;a href=&quot;http://www.linuxquestions.org/questions/slackware-14/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;linuxquestions.org&lt;/a&gt; 上提出报告、建议和补丁的Slackware 社区。Slackware 离不开你的贡献。&lt;/p&gt;
-&lt;p&gt;享受新的稳定版吧！&lt;/p&gt;
-&lt;p&gt;Pat 和Slackware 全员。&lt;/p&gt;
-&lt;p&gt;+————————–+&lt;/p&gt;
-&lt;p&gt;Slackware 14.2 同样发布了支持ARM 架构的镜像，详情参见：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://arm.slackware.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arm.slackware.com&lt;/a&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>经过漫长的开发周期（包括为了保证完美而发布的众多Beta 版和RC 版），我们很高兴的宣布新的稳定版已经发布。新版中你会发现我们对系统的方方面面进行了更新：开发工具、应用程序、窗口管理器、桌面环境以及其他系统组件。内核已更新至4.4.14（4.4.x 内核系列将会的到内核开发者的长期支持）。我们已经汇集了最好的现代化工具并在之上施加了我们的魔法。如果你之前使用过Slackware，新的版本会让你有家的感觉。</p>
+<p>更多信息请参见<a href="http://www.slackware.com/announce/14.2.php" target="_blank" rel="external">官方公告</a>和<a href="http://www.slackware.com/releasenotes/14.2.php" target="_blank" rel="external">发行注记</a>。在软件包列表中你可以查看所包含软件包的完整列表。</p>
+<p>适用于Slackware 14.2 的各类软件构建脚本可以在<a href="http://slackbuilds.org/" target="_blank" rel="external">slackbuilds.org</a> 上找到。</p>
+<p>想试用Slackware 而不对磁盘进行修改？看看Slackware Live 版本把！这是一个可以在CD、DVD 和U 盘上运行的Slackware 完整安装。感谢Eric Hameleers 所做的工作，你可以在这里找到它：<a href="http://bear.alienbase.nl/mirrors/slackware/slackware-live/" target="_blank" rel="external">http://bear.alienbase.nl/mirrors/slackware/slackware-live/</a></p>
+<p>需要帮助？看看我们的文档站点<a href="http://docs.slackware.com/" target="_blank" rel="external">docs.slackware.com</a>，你可以到处转转并分享你的知识。</p>
+<p>请考虑从<a href="http://store.slackware.com/" target="_blank" rel="external">Slackware 商店</a>中获取一份Slackware 14.2 的拷贝以支持Slackware 项目。光盘即将上架，我们接受6 CD 版和DVD 版的预定。CD 为32 位的x86 系统，DVD 为双面盘，分别刻有32 位的x86 系统和64 位的x86_64 系统。感谢我们的用户和支持者让Slackware 项目在这些年里得以继续。</p>
+<p>感谢Slackware 开发团队为14.2 发布所做的一切工作。当然，还要感谢所有上游的开源工作者和在<a href="http://www.linuxquestions.org/questions/slackware-14/" target="_blank" rel="external">linuxquestions.org</a> 上提出报告、建议和补丁的Slackware 社区。Slackware 离不开你的贡献。</p>
+<p>享受新的稳定版吧！</p>
+<p>Pat 和Slackware 全员。</p>
+<p>+————————–+</p>
+<p>Slackware 14.2 同样发布了支持ARM 架构的镜像，详情参见：</p>
+<p><a href="http://arm.slackware.com/" target="_blank" rel="external">http://arm.slackware.com</a></p>
+]]></content>
     
     <summary type="html">
     
@@ -94,13 +122,13 @@
     <link href="https://slackwarecn.github.io/2016/03/20/SlackBook%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F/"/>
     <id>https://slackwarecn.github.io/2016/03/20/SlackBook翻译项目已经结束/</id>
     <published>2016-03-20T08:44:19.000Z</published>
-    <updated>2016-07-13T16:05:04.036Z</updated>
+    <updated>2016-08-06T09:38:28.090Z</updated>
     
-    <content type="html">&lt;p&gt;大家好，得力于很多人的积极贡献，项目以远超于预想的速度完成。经过18 天的努力，目前翻译阶段已经结束，手册的格式也经过了修改以期能为读者提供一个统一的展示风格。&lt;/p&gt;
-&lt;p&gt;你可以在&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt; 上查看该项目，或者直接在&lt;a href=&quot;https://www.gitbook.com/read/book/slackwarecn/slackbook_cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gitbook&lt;/a&gt; 上阅读该手册。&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/blob/master/CONTRIBUTING.md#%E8%B4%A1%E7%8C%AE%E8%80%85%E5%88%97%E8%A1%A8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;提供了一份贡献者名单，非常感谢名单上的各位！&lt;/p&gt;
-&lt;p&gt;如果你发现翻译上的错误、不通顺和其他可改进的地方，请&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;提出你的意见&lt;/a&gt;，非常感谢。&lt;/p&gt;
-&lt;p&gt;The Slackware Linux CN Community&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>大家好，得力于很多人的积极贡献，项目以远超于预想的速度完成。经过18 天的努力，目前翻译阶段已经结束，手册的格式也经过了修改以期能为读者提供一个统一的展示风格。</p>
+<p>你可以在<a href="https://github.com/slackwarecn/slackbook_cn" target="_blank" rel="external">Github</a> 上查看该项目，或者直接在<a href="https://www.gitbook.com/read/book/slackwarecn/slackbook_cn" target="_blank" rel="external">Gitbook</a> 上阅读该手册。<a href="https://github.com/slackwarecn/slackbook_cn/blob/master/CONTRIBUTING.md#%E8%B4%A1%E7%8C%AE%E8%80%85%E5%88%97%E8%A1%A8" target="_blank" rel="external">这里</a>提供了一份贡献者名单，非常感谢名单上的各位！</p>
+<p>如果你发现翻译上的错误、不通顺和其他可改进的地方，请<a href="https://github.com/slackwarecn/slackbook_cn/issues" target="_blank" rel="external">提出你的意见</a>，非常感谢。</p>
+<p>The Slackware Linux CN Community</p>
+]]></content>
     
     <summary type="html">
     
@@ -121,12 +149,12 @@
     <link href="https://slackwarecn.github.io/2016/03/06/SlackBook%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E5%B7%B2%E7%BB%8F%E5%90%AF%E5%8A%A8/"/>
     <id>https://slackwarecn.github.io/2016/03/06/SlackBook翻译项目已经启动/</id>
     <published>2016-03-06T13:46:48.000Z</published>
-    <updated>2016-07-13T16:04:55.980Z</updated>
+    <updated>2016-08-06T09:38:28.090Z</updated>
     
-    <content type="html">&lt;p&gt;大家好，目前&lt;a href=&quot;http://slackbook.org/beta&quot; title=&quot;查看原始文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SlackBook 3.0&lt;/a&gt; 的中文翻译计划已经开始。你可以在&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;查看项目的大致规划。如果你想贡献自己的力量来缩短项目完成的时间，请查看&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn#%E8%B4%A1%E7%8C%AE%E5%8A%9B%E9%87%8F&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;README&lt;/a&gt; 和&lt;a href=&quot;https://github.com/slackwarecn/slackbook_cn/issues/2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;工作进展&lt;/a&gt;来选择你喜欢翻译的部分。&lt;/p&gt;
-&lt;p&gt;请期待项目的最终完成，感谢您的关注。&lt;/p&gt;
-&lt;p&gt;The Slackware Linux CN Community&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>大家好，目前<a href="http://slackbook.org/beta" title="查看原始文档" target="_blank" rel="external">SlackBook 3.0</a> 的中文翻译计划已经开始。你可以在<a href="https://github.com/slackwarecn/slackbook_cn/issues/1" target="_blank" rel="external">这里</a>查看项目的大致规划。如果你想贡献自己的力量来缩短项目完成的时间，请查看<a href="https://github.com/slackwarecn/slackbook_cn#%E8%B4%A1%E7%8C%AE%E5%8A%9B%E9%87%8F" target="_blank" rel="external">README</a> 和<a href="https://github.com/slackwarecn/slackbook_cn/issues/2" target="_blank" rel="external">工作进展</a>来选择你喜欢翻译的部分。</p>
+<p>请期待项目的最终完成，感谢您的关注。</p>
+<p>The Slackware Linux CN Community</p>
+]]></content>
     
     <summary type="html">
     
@@ -146,13 +174,13 @@
     <link href="https://slackwarecn.github.io/2016/02/29/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0Slackware%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA/"/>
     <id>https://slackwarecn.github.io/2016/02/29/欢迎来到Slackware中文社区/</id>
     <published>2016-02-29T11:02:25.000Z</published>
-    <updated>2016-07-13T16:06:52.637Z</updated>
+    <updated>2016-08-06T09:38:28.090Z</updated>
     
-    <content type="html">&lt;p&gt;这里是Slackare Linux 中文社区，希望你能喜欢这里，也欢迎为Slackware Linux 贡献你的力量 (•̀ᴗ•́)و&lt;/p&gt;
-&lt;p&gt;你可以在&lt;a href=&quot;/About&quot; title=&quot;为什么会有Slackware Linux 中文社区？&quot;&gt;这里&lt;/a&gt;了解到Slackware Linux 中文社区建立的初衷和愿景。&lt;/p&gt;
-&lt;p&gt;如果你对我们有兴趣，可以&lt;a href=&quot;/JoinUs&quot; title=&quot;欢迎加入Slackware Linux 中文社区！&quot;&gt;加入我们&lt;/a&gt;！&lt;/p&gt;
-&lt;p&gt;The Slackware Linux CN Community&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>这里是Slackare Linux 中文社区，希望你能喜欢这里，也欢迎为Slackware Linux 贡献你的力量 (•̀ᴗ•́)و</p>
+<p>你可以在<a href="/About" title="为什么会有Slackware Linux 中文社区？">这里</a>了解到Slackware Linux 中文社区建立的初衷和愿景。</p>
+<p>如果你对我们有兴趣，可以<a href="/JoinUs" title="欢迎加入Slackware Linux 中文社区！">加入我们</a>！</p>
+<p>The Slackware Linux CN Community</p>
+]]></content>
     
     <summary type="html">
     

@@ -118,11 +118,11 @@
 <p>网易云音乐Linux 版保留了云音乐功能，用户只需一个帐号，无论在哪个版本上收藏歌曲或创建歌单，只要连上网络，便可立即同步自己的数据信息。</p>
 <p>网易云音乐Linux 版在界面设计、曲库、社交、数据同步、平台互通等方面具备与Windows 版网易云音乐基本一致的体验，同时也会不断优化产品性能，给用户带来更好的操作体验。</p>
 </blockquote>
-<p>你可以在<a href="https://github.com/slackwarecn/netease-cloud-music" target="_blank" rel="external">这里</a>找到你所需要的SlackBuild。</p>
+<p>你可以在<a href="https://github.com/slackwarecn/netease-cloud-music" target="_blank" rel="noopener">这里</a>找到你所需要的SlackBuild。</p>
 <p>下面是一个完整的安装过程。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">slackpkg update</div><div class="line">slackpkg install alsa-lib mozilla-nss gst-plugins-base gst-plugins-good</div><div class="line">sbopkg -r</div><div class="line">sbopkg -i gst-libav -i gst-plugins-ugly -i libcue -i libxkbcommon -i qt5 -i extra-cmake-modules -i Sphinx</div><div class="line">git <span class="built_in">clone</span> https://github.com/slackwarecn/repo.git</div><div class="line"><span class="built_in">cd</span> repo</div><div class="line">./sbm init</div><div class="line">./sbm build kconfig netease-cloud-music</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">slackpkg update</span><br><span class="line">slackpkg install alsa-lib mozilla-nss gst-plugins-base gst-plugins-good</span><br><span class="line">sbopkg -r</span><br><span class="line">sbopkg -i gst-libav -i gst-plugins-ugly -i libcue -i libxkbcommon -i qt5 -i extra-cmake-modules -i Sphinx</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/slackwarecn/repo.git</span><br><span class="line"><span class="built_in">cd</span> repo</span><br><span class="line">./sbm init</span><br><span class="line">./sbm build kconfig netease-cloud-music</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>注意：以上步骤可以根据你的经验更改，例如使用<a href="http://www.slackware.com/~alien/slackbuilds" target="_blank" rel="external">Alien 的SlackBuilds</a> 去掉部分编译过程。</p>
+<p>注意：以上步骤可以根据你的经验更改，例如使用<a href="http://www.slackware.com/~alien/slackbuilds" target="_blank" rel="noopener">Alien 的SlackBuilds</a> 去掉部分编译过程。</p>
 </blockquote>
 <p>之后你可以在桌面环境的启动菜单中找到网易云音乐，或者使用<code>netease-cloud-music</code> 命令启动。</p>
 <p>祝你愉快！</p>
@@ -235,7 +235,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2016 Slackwarecn
+  &copy; 2018 Slackwarecn
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a>,<a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>,<a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a> and <a href="http://getbootstrap.com/" target="_blank">BOOTSTRA.386</a>. 
      <br> Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind.386</a>.    
